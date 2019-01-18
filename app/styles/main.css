@@ -268,6 +268,18 @@ dt {
 }
 
 
+.sl-title {
+  font-size:1.5em;
+  font-weight:bold;
+  margin: 0 20px 20px 20px;
+  border-bottom: 1px solid #6c7a89;
+}
+
+/* Topic */
+.sl-topic-papers {
+  height:250px !important;
+}
+
 /* Footer */
 
 .footer {
@@ -404,7 +416,7 @@ dt {
   margin-bottom:50px;
 }
 
-.sl-author-statistics {
+.sl-statistics {
   padding-left:50px;
 }
 
@@ -1375,8 +1387,13 @@ p.todo {
     margin-left: 50px;
   }
 
-  .sl-author-statistics {
+  .sl-statistics {
     padding-left:0px;
+  }
+
+  /* Topic Page */
+  .sl-topic-papers {
+    height: calc(100% - 50px);
   }
 }
 

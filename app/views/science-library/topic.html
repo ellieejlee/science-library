@@ -3,8 +3,8 @@
  * All Rights Reserved
  -->
 
-<div class="col-md-12 footer-padding">
-  <div class="row">
+<div class="col-md-12 sl-content-container">
+  <div class="row sl-title">
     <!-- Description -->
     <p class="center">
       <span ng-class="[{'answer-highlight': nameHighlight}]">{{name | capitaliseFirst}}</span>
@@ -35,7 +35,7 @@
 
         <!-- Results list -->
         <div class="col-md-12">
-          <ul class="results-list clear">
+          <ul class="results-list clear sl-topic-papers">
             <li class="no-bullets" ng-repeat="item in publications | orderBy : 'name' | orderBy : sortCommand | filter : filterPapers">
               <span ng-class="[className, ('document-' + $index)]" ng-repeat="className in item.class track by $index"></span>
               <a ng-href="{{scienceLibrary}}/paper/{{item.id}}" class="list-name">{{item.name}}</a>
@@ -97,7 +97,7 @@
       </div>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 sl-statistics">
       <!-- Publications -->
       <div>
         <h3>Statistics</h3>
