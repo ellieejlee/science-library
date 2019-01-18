@@ -28,7 +28,7 @@
 
           <!-- Papers list -->
           <div class="clear">
-            <div class="col-md-12">
+            <div class="">
               <ul class="results-list no-bullets">
                 <li ng-repeat="item in list | orderBy : 'name' | orderBy : sortCommand | filter : filterPapers | limitTo : listLength">
                   <span ng-class="[className, ('document-' + $index)]" ng-repeat="className in item.class track by $index"></span>
