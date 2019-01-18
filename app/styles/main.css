@@ -437,9 +437,10 @@ dt {
 /* Paper page */
 
 
-.sl-paper-container {
+.sl-content-container {
   min-width:115%;
   padding:0 20px ;
+  margin-bottom: 60px;
 }
 
 .paper-img {
@@ -1315,7 +1316,7 @@ p.todo {
   }
 
   /* Paper Page */
-  .sl-paper-container {
+  .sl-content-container {
     min-width:100%;
     padding:0px ;
   }
