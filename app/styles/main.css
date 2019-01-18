@@ -232,6 +232,7 @@ td {
   padding: 0;
   border-bottom: 0;
   background: #26343F;
+  min-width:115%;
 }
 
 .sl-main-container {
@@ -269,7 +270,7 @@ dt {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  min-width: 115%;
   height: 50px;
   background-color: #152935;
 }
@@ -1293,6 +1294,17 @@ p.todo {
   .sl-main-statistics {
     font-weight:lighter;
   }
+
+  /* Header */
+  .page-header {
+    min-width:0%;
+  }
+
+  /* Footer */
+
+.footer {
+  min-width: 100%;
+}
 }
 
 
