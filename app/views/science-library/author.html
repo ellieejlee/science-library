@@ -96,11 +96,11 @@
     </div>
 
     <!-- <div class="row author-pubs"> -->
-    <div class="col-md-3">
+    <div class="col-md-3 sl-author-statistics">
       <!-- Publications -->
       <div>
-        <span ng-if="profilePic"><img src="{{profilePic}}" width="100px"/></span>
-        <h3>Statistics</h3>
+        <div class="sl-author-profile" ng-if="profilePic"><img src="{{profilePic}}" width="100px"/></div>
+        <h3 class="">Statistics</h3>
 
         <div class="total-publication-count">
           <dl class="dl-horizontal dl-publications" ng-class="[{'answer-highlight': publicationsHighlight}]">
