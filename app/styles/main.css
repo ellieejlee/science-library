@@ -234,6 +234,36 @@ td {
   background: #26343F;
 }
 
+.sl-main-container {
+  min-width:115%;
+}
+
+.sl-main-description {
+  margin: 0 5px;
+}
+
+.sl-main-list-title, .sl-main-statistics {
+  font-weight:bold !important;
+  /* text-align: center; */
+  display: block;
+  font-size:25px;
+  margin-top:50px;
+  color:white;
+}
+
+.statistics-hr {
+  display:none;
+}
+
+dt {
+  float:left;
+}
+
+#pie-chart {
+  margin-right: 0px !important;
+}
+
+
 /* Footer */
 
 .footer {
@@ -257,7 +287,7 @@ td {
 }
 
 .list-view {
-  padding: 20px 15px 20px 50px;
+  padding: 10px;
 }
 
 .side-list-view {
@@ -366,6 +396,8 @@ td {
 
 .total-publication-count {
   margin-top: 40px;
+  margin-left:20px;
+  margin-bottom:50px;
 }
 
 .authorFilters .ind, .authorFilters .ac, .authorFilters .gov {
@@ -1242,3 +1274,44 @@ p.todo {
   color: #580000;
   font-size: 12px;
 }
+
+
+
+@media (min-width: 375px) {
+  .sl-main-container {
+    min-width:100%;
+  }
+
+  .sl-main-description {
+    margin: 0 0;
+  }
+
+  /* .list-view {
+    padding: 20px 15px 20px 50px;
+  } */
+
+  .sl-main-statistics {
+    font-weight:lighter;
+  }
+}
+
+
+@media (min-width: 991px) {
+
+  .statistics-hr {
+    display:block;
+  }
+
+  #pie-chart {
+    padding-right: 50px;
+  }
+
+  .sl-main-list-title, .sl-main-statistics {
+    margin-left: 0px;
+  }
+
+  .row {
+    margin: 0 20px;
+  }
+}
+

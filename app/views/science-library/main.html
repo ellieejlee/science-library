@@ -1,5 +1,5 @@
-<div class="col-md-12 footer-padding">
-  <div class="row">
+<div class="col-md-12 footer-padding sl-main-container">
+  <div class="row sl-main-description">
     <!-- Description -->
     <p class="center details">{{projectName}}. {{ lastUpdated }}.</p>
   </div>
@@ -8,6 +8,7 @@
     <div class="list-view">
       <div ng-show="listName === listTypes.papers">
         <div class="col-md-8">
+          <div class="sl-main-list-title">Explore the Science Library</div>
           <top-header></top-header>
 
           <div class="authorFilters">
@@ -52,7 +53,7 @@
 
         <div class="col-md-4">
           <!-- Publications -->
-          <h3>Statistics</h3>
+          <div class="sl-main-statistics">Statistics</div>
 
           <div class="total-publication-count">
             <dl class="dl-horizontal dl-publications" ng-class="[{'answer-highlight': publicationsHighlight}]">

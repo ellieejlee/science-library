@@ -109,7 +109,7 @@ angular.module('slApp')
 
   // set max-height of results lists
   var resultsListElems = angular.element('.results-list');
-  var maxHeight = $scope.height - 305;
+  var maxHeight = $scope.height - 380;
   resultsListElems.css('max-height', maxHeight + 'px');
 
   $scope.filterPapers = function(value) {
